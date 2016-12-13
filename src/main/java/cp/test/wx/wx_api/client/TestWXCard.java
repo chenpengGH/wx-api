@@ -61,25 +61,25 @@ public class TestWXCard {
 		card.setCard_type("GIFT");
 		
 		Map<String, String> params = new HashMap<String, String>();
-		params.put(createGiftCard.logo_url, "http://hdcs.orientalwisdom.com/udp/logo/tbgx20160216.jpg");
+		params.put(createGiftCard.logo_url, "http://hdcs.orientalwisdom.com/udp/logo/bjyh20151217.jpg");
 		params.put(createGiftCard.code_type, "CODE_TYPE_TEXT");
-		params.put(createGiftCard.brand_name, "太保产险广西");
-		params.put(createGiftCard.title, "太保产险广西流量卡");
-		params.put(createGiftCard.Color, "Color030");
+		params.put(createGiftCard.brand_name, "北京银行");
+		params.put(createGiftCard.title, "北京银行流量卡");
+		params.put(createGiftCard.Color, "Color100");
 		params.put(createGiftCard.Notice, "");
 		params.put(createGiftCard.Service_phone, "4001076866");
 		params.put(createGiftCard.Source, "");
 		params.put(createGiftCard.Center_title, "立即充值");
 		params.put(createGiftCard.Center_url, "http://card.orientalwisdom.com/udp-auth/cards/exchange");
-		params.put(createGiftCard.Center_sub_title, "移动500M/联通500M/电信500M");
-		params.put(createGiftCard.Promotion_url_name, "敬请关注");
-		params.put(createGiftCard.Promotion_url, "http://card.orientalwisdom.com/udp/cards/CAS");
-		params.put(createGiftCard.Promotion_url_sub_title, "太保产险广西");
+		params.put(createGiftCard.Center_sub_title, "移动30M/联通50M/电信50M");
+//		params.put(createGiftCard.Promotion_url_name, "");
+//		params.put(createGiftCard.Promotion_url, "http://card.orientalwisdom.com/udp/cards/CAS");
+//		params.put(createGiftCard.Promotion_url_sub_title, "");
 		params.put(createGiftCard.Get_limit, "10");
-		params.put(createGiftCard.Can_give_friend, "true");
+		params.put(createGiftCard.Can_give_friend, "false");
 		params.put(createGiftCard.Type, "2");
-		params.put(createGiftCard.Fixed_term, "90");
-		params.put(createGiftCard.Quantity, "90");
+		params.put(createGiftCard.Fixed_term, "7");
+		params.put(createGiftCard.Quantity, "20000");
 		params.put(createGiftCard.ACCESS_TOKEN, ACCESS_TOKEN.access_token);
 		
 		BaseInfo info = new BaseInfo();
@@ -113,9 +113,9 @@ public class TestWXCard {
 //		info.setCenter_sub_title("移动1G/联通1G/电信1G");
 //		info.setCenter_sub_title("移动3G/联通1.5G/电信2G");
 //		
-		info.setPromotion_url_name(params.get(createGiftCard.Promotion_url_name));// 第二个按钮
-		info.setPromotion_url(params.get(createGiftCard.Promotion_url));// 第二个按钮对应的ulr
-		info.setPromotion_url_sub_title(params.get(createGiftCard.Promotion_url_sub_title));// 第二个按钮的提示信息  need-change
+//		info.setPromotion_url_name(params.get(createGiftCard.Promotion_url_name));// 第二个按钮
+//		info.setPromotion_url(params.get(createGiftCard.Promotion_url));// 第二个按钮对应的ulr
+//		info.setPromotion_url_sub_title(params.get(createGiftCard.Promotion_url_sub_title));// 第二个按钮的提示信息  need-change
 		
 		info.setGet_limit(Integer.parseInt(params.get(createGiftCard.Get_limit)));//need-change
 		info.setUse_custom_code(true);
