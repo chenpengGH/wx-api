@@ -92,7 +92,7 @@ public class TestCreateSceneQRCode {
 		TestCreateSceneQRCode create = new TestCreateSceneQRCode();
 		
 		// ********************* 【必填】 START ***********************
-		String activityCode = "BANKOFBJ_161213";
+		String activityCode = "CPIC-CX-SD_161214";
 		String token = ACCESS_TOKEN.access_token;
 		
 		// ********************* 【必填】  END ***********************

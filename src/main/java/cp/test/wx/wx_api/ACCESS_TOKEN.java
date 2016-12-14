@@ -1,6 +1,6 @@
 package cp.test.wx.wx_api;
 
 public interface ACCESS_TOKEN {
-	String access_token = "x7Y8uP698WOwTGezT-A4w-V8Bx4njdXNn_GMN4Yau38CcGCQQyfNC_WDHws2qEy622LMhZAtkCeytsboTOI3ZMPCrk5MMqGZh8u3CI4tXBEIIUdABALLX";
+	String access_token = "5mJMktjdKMUkhyxHNr5Z0rrUJZoS3-Lh1GoH_JHN7Z4pYHJK20KanYtS_1iFLk1ozJen5px_lZD_YgqttxcPjkYwY5NvmJJVcZ-5MWOvmD9U3leJuwWB0COJpmvEdoEdETHdAAAODR";
 }
  
