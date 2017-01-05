@@ -29,11 +29,12 @@ public class TestWXCardupdate {
 		url = url.replace("ACCESS_TOKEN", token);
 		
 		Map<String, Object> body = new HashMap<String, Object>();
-		body.put("card_id", "pUZWKs44HaFdocgTBEUnQ-MjFuHQ");
+		body.put("card_id", "pUZWKszrtMDEM-axuB3PkphbpdPs");
 		
 		Map<String, Object> member_card = new HashMap<String, Object>();
 		Map<String, Object> mainBody = new HashMap<String, Object>();
-		mainBody.put("get_limit", 50);
+		mainBody.put("center_sub_title", "移动70M/联通100M/电信100M");
+//		mainBody.put("get_limit", 50);
 //		mainBody.put("logo_url", "http://hdcs.orientalwisdom.com/udp/logo/tbgx20160216.jpg");
 		
 		member_card.put("base_info", mainBody);

@@ -28,8 +28,8 @@ public class TestWXCardModifystock {
 		url = url.replace("ACCESS_TOKEN", token);
 		
 		Map<String, Object> body = new HashMap<String, Object>();
-		body.put("card_id", "pUZWKs7tmNOfeOSAwgnyklUzqKmc");
-		body.put("increase_stock_value", 1725);  // 增加库存
+		body.put("card_id", "pUZWKs07oBsf2V8D714SBNVntqOE");
+		body.put("increase_stock_value", 300);  // 增加库存
 //		body.put("reduce_stock_value", 100);    // 减少库存
 		
 		String sbody = JsonUtil.getInstance().toJson(body);

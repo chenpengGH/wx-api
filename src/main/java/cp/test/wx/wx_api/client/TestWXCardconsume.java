@@ -19,18 +19,19 @@ import cp.test.wx.wx_api.util.JsonUtil;
 public class TestWXCardconsume {
 
 	public static void main(String[] args) throws Exception {
-		cunsume();
+//		cunsume("pUZWKs5W1oM5WHqWTzVkLEvxcRvk","BC21C8D48EBADF49");
+		cunsume("pUZWKs9EHeIZP4Y8aBVS0EyaG-vo","E92F5CFDAC4C77F0");
 	}
 	
-	public static void cunsume() throws UnsupportedEncodingException {
+	public static void cunsume(String cardId, String code) throws UnsupportedEncodingException {
 		String token = ACCESS_TOKEN.access_token;
 		
-		String url = "https://api.weixin.qq.com/card/consume?access_token=ACCESS_TOKEN";
+		String url = "https://api.weixin.qq.com/card/code/consume?access_token=ACCESS_TOKEN";
 		url = url.replace("ACCESS_TOKEN", token);
 		
 		Map<String, String> body = new HashMap<String, String>();
-		body.put("card_id", "");
-		body.put("code ", "");
+		body.put("card_id", cardId);
+		body.put("code", code);
 		
 		String sbody = JsonUtil.getInstance().toJson(body);
 		System.out.println(sbody);

@@ -64,22 +64,22 @@ public class TestWXCard {
 		params.put(createGiftCard.logo_url, "http://hdcs.orientalwisdom.com/udp/logo/tbsd20150901.jpg");
 		params.put(createGiftCard.code_type, "CODE_TYPE_TEXT");
 		params.put(createGiftCard.brand_name, "太平洋产险山东分公司");
-		params.put(createGiftCard.title, "太平洋产险流量卡");
+		params.put(createGiftCard.title, "太保流量充值");
 		params.put(createGiftCard.Color, "Color030");
 		params.put(createGiftCard.Notice, "");
 		params.put(createGiftCard.Service_phone, "4001076866");
 		params.put(createGiftCard.Source, "");
 		params.put(createGiftCard.Center_title, "立即充值");
 		params.put(createGiftCard.Center_url, "http://card.orientalwisdom.com/udp-auth/cards/exchange");
-		params.put(createGiftCard.Center_sub_title, "移动1G/联通1G/电信1G");
+		params.put(createGiftCard.Center_sub_title, "移动10M/联通20M/电信10M");
 		params.put(createGiftCard.Promotion_url_name, "敬请关注");
 		params.put(createGiftCard.Promotion_url, "http://card.orientalwisdom.com/udp/cards/CAS");
-		params.put(createGiftCard.Promotion_url_sub_title, "太保山东");
+		params.put(createGiftCard.Promotion_url_sub_title, "太保产险");
 		params.put(createGiftCard.Get_limit, "10");
 		params.put(createGiftCard.Can_give_friend, "true");
 		params.put(createGiftCard.Type, "2");
-		params.put(createGiftCard.Fixed_term, "30");
-		params.put(createGiftCard.Quantity, "20");
+		params.put(createGiftCard.Fixed_term, "60");
+		params.put(createGiftCard.Quantity, "2531");
 		params.put(createGiftCard.ACCESS_TOKEN, ACCESS_TOKEN.access_token);
 		
 		BaseInfo info = new BaseInfo();
