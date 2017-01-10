@@ -18,7 +18,7 @@ import java.util.Map;
 public class TestWXCardget {
 
 	public static void main(String[] args) throws Exception {
-		getCardInfo("pUZWKs07oBsf2V8D714SBNVntqOE");
+		getCardInfo("pUZWKszrtMDEM-axuB3PkphbpdPs");
 //		getCardInfo("pUZWKs92teC9HZQjDVw7CeVBny2M");
 //		getCardInfo("pUZWKs4QbnUlWmlxN69Nsex1ZR4c");
 	}

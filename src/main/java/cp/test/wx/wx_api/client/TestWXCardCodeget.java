@@ -18,8 +18,9 @@ import java.util.Map;
 public class TestWXCardCodeget {
 
 	public static void main(String[] args) throws Exception {
-		codeget("pUZWKs9EHeIZP4Y8aBVS0EyaG-vo","E92F5CFDAC4C77F0");
-		codeget("pUZWKs9EHeIZP4Y8aBVS0EyaG-vo","7590A0CAECD69E33");
+		codeget("pUZWKs3bF3xMJ0xsfezKH-2voXxQ","7DD8E57E7AB9CB80");
+		codeget("pUZWKs3bF3xMJ0xsfezKH-2voXxQ","E567101EA148FA63");
+		codeget("pUZWKs5gUFhujxp0GiV9w7LN8ocQ","DF21D9832BF9B8BC");
 	}
 	
 	public static void codeget(String cardId, String code) throws UnsupportedEncodingException {
@@ -31,7 +32,7 @@ public class TestWXCardCodeget {
 		Map<String, Object> body = new HashMap<String, Object>();
 		body.put("card_id", cardId);
 		body.put("code", code);
-		body.put("check_consume", true);
+		body.put("check_consume", false);
 
 		String sbody = JsonUtil.getInstance().toJson(body);
 		System.out.println(sbody);
