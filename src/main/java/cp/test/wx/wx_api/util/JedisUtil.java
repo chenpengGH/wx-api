@@ -1,4 +1,4 @@
-package cp.test.sinowel.util;
+package cp.test.wx.wx_api.util;
 
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
