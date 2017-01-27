@@ -95,6 +95,15 @@
   </dependencies>
   
   <build>
-  	<finalName>WXAPI</finalName>
+  	<finalName>wx-api</finalName>
+  	<!-- 插件 -->
+  	<plugins>
+		<!-- 打包源码的插件 -->
+		<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-source-plugin</artifactId>
+			<version>2.1.2</version>
+		</plugin>
+	</plugins>
   </build>
 </project>
