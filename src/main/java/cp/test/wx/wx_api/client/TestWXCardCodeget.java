@@ -18,9 +18,11 @@ import java.util.Map;
 public class TestWXCardCodeget {
 
 	public static void main(String[] args) throws Exception {
-		codeget("pUZWKs3bF3xMJ0xsfezKH-2voXxQ","7DD8E57E7AB9CB80");
-		codeget("pUZWKs3bF3xMJ0xsfezKH-2voXxQ","E567101EA148FA63");
-		codeget("pUZWKs5gUFhujxp0GiV9w7LN8ocQ","DF21D9832BF9B8BC");
+
+		codeget("pUZWKs3hipgm3PwC_FAsdHoEARAo","525533D58A5CCB1A");
+//		codeget("pUZWKs2UDulQozZp8pF8zJF94Z_U","6B6ECC403646AFEA");
+//		codeget("pUZWKs2UDulQozZp8pF8zJF94Z_U","D08DC71F495358AB");
+//		codeget("pUZWKs2UDulQozZp8pF8zJF94Z_U","66B3C9FE54857D21");
 	}
 	
 	public static void codeget(String cardId, String code) throws UnsupportedEncodingException {
